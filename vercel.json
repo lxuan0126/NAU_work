@@ -1,0 +1,18 @@
+{
+    "projects": {
+      "frontend": {
+        "root": "frontend",
+        "outputDirectory": "build",
+        "framework": "nextjs"
+      },
+      "backend": {
+        "root": "backend",
+        "outputDirectory": "dist",
+        "functions": {
+          "api/**/*.js": {
+            "runtime": "nodejs18.x"
+          }
+        }
+      }
+    }
+}
